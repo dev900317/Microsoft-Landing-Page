@@ -1,11 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/cf62a03b8e/UntitledProject/style-svg.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="https://i.icomoon.io/public/temp/cf62a03b8e/UntitledProject/svgxuse.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Microsoft</title>
 </head>
+
 <body>
 
+  <div class="container">
+    <header class="header">
+      <img src="img/logo.png" alt="Microsoft logo" class="header__logo">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">Office</li>
+          <li class="nav__item">Windows</li>
+          <li class="nav__item">Surface</li>
+          <li class="nav__item">Xbox</li>
+          <li class="nav__item">Deals</li>
+          <li class="nav__item">Support</li>
+        </ul>
+      </nav>
+
+      <div class="user-menu">
+          <svg class="icon user-nav__icon-moon">
+            <use xlink:href="#icon-moon"></use>
+          </svg>
+          <svg class="icon user-nav__shopping-cart">
+            <use xlink:href="#icon-shopping-cart"></use>
+          </svg>
+        </div>
+    </header>
+
+    <section class="hero">
+      <h1 class="heading-1">Surface Deals</h1>
+      <p class="paragraph">Select Surfaces are on sale now - save while supplies last</p>
+      <button class="btn btn--cta">Shop Now<span>&#62;</span></button>
+
+    </section>
+
+    <section class="home-cards">
+      <div class="card card--1">
+        <img src="img/card1.png" alt="Photo" class="card__img">
+        <h2 class="card__heading heading-2">New Surface Pro 7</h2>
+        <p class="card__text">See how Katie Sowers, Asst. Coach for the 49ers, uses Surface Pro 7 to put her plans into
+          play.</p>
+        <button class="btn btn--inline">Learn More<span>&#62;</span></button>
+      </div>
+      <div class="card card--2">
+        <img src="img/card2.png" alt="Photo" class="card__img">
+        <h2 class="card__heading heading-2">New Surface Laptop 3</h2>
+        <p class="card__text">Express yourself powerfully with a thin, inline, and elegant design, faster performance,
+          and up to 11.5 hours battery life.</p>
+        <button class="btn btn--inline">Learn More<span>&#62;</span></button>
+      </div>
+      <div class="card card--3">
+        <img src="img/card3.png" alt="Photo" class="card__img">
+        <h2 class="card__heading heading-2">Save $150 + free controller</h2>
+        <p class="card__text">Buy an Xbox One X console and double your fun with a free select extra controller.
+          Starting at $349.</p>
+        <button class="btn btn--inline">Learn More<span>&#62;</span></button>
+      </div>
+      <div class="card card--4">
+        <img src="img/card4.png" alt="Photo" class="card__img">
+        <h2 class="card__heading heading-2">The new Microsoft Edge</h2>
+        <p class="card__text">Expect more. World class performance, with more privacy, more productivity, and more
+          value.</p>
+        <button class="btn btn--inline">Learn More<span>&#62;</span></button>
+      </div>
+    </section>
+
+    <section class="xbox-slider slider">
+      <div class="slider__heading heading-1">Xbox Game Pass Ultimate</div>
+      <p class="slider__description">Xbox Game Pass Ultimate Xbox Live Gold and over 100 high-quality console and PC
+        games. Play together with friends and discover your next favorite game.</p>
+      <button class="btn btn--cta btn--dark"></button>
+    </section>
+
+    <section class="old-cards">
+      <div class="card">
+        <img src="img/card5.png" alt="Photo" class="card__img">
+        <h2 class="card__heading heading-2">Microsoft Teams</h2>
+        <p class="card__text">Unleash the power of your team</p>
+        <button class="btn btn--inline">Shop now<span>&#62;</span></button>
+      </div>
+      <div class="card">
+        <img src="img/card6.png" alt="Photo" class="card__img">
+        <h2 class="card__heading heading-2">Unlock the power of learning</h2>
+        <p class="card__text">Get students future-ready with Windows 10 devices. Starting at $219.</p>
+        <button class="btn btn--inline">Unlock the power of learning<span>&#62;</span></button>
+      </div>
+      <div class="card">
+        <img src="img/card7.png" alt="Photo" class="card__img">
+        <h2 class="card__heading heading-2">Windows 10 Enterprise</h2>
+        <p class="card__text">Download the free 90day evaluation for IT professionals</p>
+        <button class="btn btn--inline">Learn More<span>&#62;</span></button>
+      </div>
+      <div class="card">
+        <img src="img/card8.png" alt="Photo" class="card__img">
+        <h2 class="card__heading heading-2">Explore Kubernetes</h2>
+        <p class="card__text">Learn how kubernetes works and get started with cloud native app development today.</p>
+        <button class="btn btn--inline">Learn More<span>&#62;</span></button>
+      </div>
+    </section>
+
+    <section class="carbon-slider slider">
+      <div class="slider__heading heading-1">Commiting to Carbon Negative</div>
+      <p class="slider__description">Microsoft will be carbon negative by 2030 and by 2050 we will remove all carbon the company has emitted since it was founded in 1975.</p>
+      <button class="btn btn--cta btn--light"></button>
+    </section>
+
+    <section class="follow">
+      <p>Follow Microsoft</p>
+      <a href="#"><img src="img/social-fb.png" alt="" class="logo--fb"></a>
+      <a href="#"><img src="img/social-twitter.png" alt="" class="logo--twitter"></a>
+      <a href="#"><img src="img/social-linkedin.png" alt="" class="logo--linkedin"></a>
+    </section>
+
+    <footer class="footer">
+      <nav class="footer__menu">
+        <ul class="footer-nav">
+          <h3 class="heading-3">What's new</h3>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Surface Pro X</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Surface Laptop 3</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Surface Pro 7</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Windows 10 apps</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Office Apps</a></li>
+        </ul>
+        <ul class="footer__column">
+          <h3 class="heading-3">Microsoft Store</h3>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Account Profile</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Download Center</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Microsoft Store support</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Returns</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Older tracking</a></li>
+        </ul>
+        <ul class="footer__column">
+          <h3 class="heading-3">Education</h3>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Microsoft in education</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Office for students</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Office 365 for schools</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Deals for students</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">aMicrosoft Azure</a></li>
+        </ul>
+        <ul class="footer__column">
+          <h3 class="heading-3">Enterprise</h3>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Azure</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">AppSource</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Automotive</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Government</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Healthcare</a></li>
+        </ul>
+        <ul class="footer__column">
+          <h3 class="heading-3">Developer</h3>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Visual Studio<</a>/li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Windows Dev Center</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Developer Network</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">TechNet</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Microsoft Developer</a></li>
+        </ul>
+        <ul class="footer__column">
+          <h3 class="heading-3">Company</h3>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Careers</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">About Microsoft</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Company news</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Privacy at Microsoft</a></li>
+          <li class="footer-nav__item"><a href="#" class="footer-nav__link">Investors</a></li>
+        </ul>
+      </nav>
+    </footer>
+
+
+  </div>
+
 </body>
+
 </html>
