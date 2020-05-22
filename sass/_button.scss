@@ -1,4 +1,42 @@
 .btn {
   border: none;
-  background-color: none;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  &:focus {
+    border: none;
+  }
+
+  &--inline {
+    color: blue;
+    transition: all 0.5s ease;
+    background-color: transparent;
+
+    & span {
+      position: absolute;
+      transition: all 0.2s ease;
+      margin-left: 0.5rem;
+    }
+  }
+
+  &--inline:hover span {
+    transform: translateX(0.5rem);
+  }
+
+  &--cta {
+    padding: 1rem 2rem;
+  }
+
+  &--dark {
+    color: white;
+    background-color: black;
+  }
+
+  &--light {
+    color: black;
+    background-color: white;
+  }
 }

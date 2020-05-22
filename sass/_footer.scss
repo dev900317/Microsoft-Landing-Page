@@ -1,0 +1,30 @@
+.footer {
+  grid-column: 1 / -1;
+  background-color: #f2f2f2;
+  padding: 2rem;
+  color: rgb(61, 61, 61);
+
+  &__nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    &__link:link,
+    &__link:visited {
+      color: inherit;
+      transition: all 0.5s ease;
+      text-decoration: none;
+    }
+
+    &__link:hover,
+    &__link:active {
+      color: red;
+    }
+  }
+
+  &__column {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
