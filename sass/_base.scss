@@ -33,7 +33,10 @@ html {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 2rem;
 
   grid-column: 1 / 5;
+
+  & > * {
+    margin-right: 2rem;
+  }
 }

@@ -13,8 +13,23 @@
   align-items: flex-start;
   gap: 1.5rem;
 
+  @media only screen and (max-width: 900px) {
+    justify-content: center;
+  }
+
+  &__heading {
+    @media only screen and (max-width: 900px) {
+      margin-bottom: 2rem;
+      width: 50%;
+    }
+  }
+
   &__description {
     display: inline-block;
     width: 40%;
+
+    @media only screen and (max-width: 900px) {
+      display: none;
+    }
   }
 }

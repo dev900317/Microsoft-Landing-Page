@@ -8,6 +8,16 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 
+    @media only screen and (max-width: 900px) {
+      grid-template-columns: repeat(2, max-content);
+      grid-row-gap: 2rem;
+      justify-content: space-between;
+    }
+
+    &__item {
+      margin-top: 1rem;
+    }
+
     &__link:link,
     &__link:visited {
       color: inherit;

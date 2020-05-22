@@ -25,7 +25,12 @@
     list-style: none;
   }
 
-  &__item {
+  &__item:not(:last-child) {
+    margin-right: 2rem;
+  }
+
+  @media only screen and (max-width: 900px) {
+    display: none;
   }
 }
 
